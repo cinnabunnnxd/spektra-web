@@ -1,61 +1,70 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.about-header-hero {
+    background: url(spektra/sample.jpg) no-repeat scroll 50% 50%;
+    height: 300px;
 }
 
-.logo img{
-    height: 100px;
-}
-
-.header {
+.about-header {
+    height: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    background-color: #333;
-    padding: 10px 10px;
-    color: white;
+    justify-content: center;
 }
 
-.header .logo a {
+.headings {
     color: white;
-    text-decoration: none;
-    font-size: 1.5em;
+    font-size: 3rem;
+}
+
+.about {
+    padding: 60px 45px;
+}
+
+.about-inner-about {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 45px;
+    grid-row-gap: 45px;
+}
+
+.about-item img {
+    height: 300px;
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+}
+
+.image-overlay {
+    position: relative;
+    /* Create a relative positioned container */
+}
+
+.values {
+    position: absolute;
+    top: 0%;
+    /* Vertically center */
+    left: 50%;
+    /* Horizontally center */
+    transform: translate(-50%, -50%);
+    /* Adjust for centering */
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
     font-weight: bold;
 }
 
-.header .nav {
-    display: flex;
-    gap: 20px;
+.services-item {
+    text-align: center;
 }
 
-.header .nav a {
-    color: white;
-    text-decoration: none;
-    padding: 8px 16px;
-    transition: background-color 0.3s;
+.services-item img {
+    height: 300px;
+    width: 100%;
+    border-radius: 5px;
+    display: block;
 }
 
-.header .nav a:hover {
-    background-color: #575757;
-    border-radius: 4px;
-}
-
-@media (max-width: 768px) {
-    .header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .header .nav {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .header .nav a {
-        padding: 10px 20px;
-        width: 100%;
-        text-align: left;
-    }
+.services-item h3 {
+    margin-top: 10px;
 }

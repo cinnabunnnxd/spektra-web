@@ -97,7 +97,48 @@ html {
     font-weight: bold;
 }
 
+
+.coa-1 {
+    background: url(spektra/sample.jpg) no-repeat scroll 50% 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    height: 400px;
+}
+
+.coa-1 button {
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(222, 216, 255);
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
 /*Services Page*/
+
+.services-header-hero {
+    background: url(spektra/sample.jpg) no-repeat scroll 50% 50%;
+    height: 300px;
+}
+
+.services-header {
+    height: 100%;
+    /* Make the div take up the full height of the section */
+    display: flex;
+    align-items: center;
+    /* Center vertically */
+    justify-content: center;
+    /* Center horizontally */
+}
+
+.heading-services {
+    color: white;
+    font-size: 3rem;
+}
+
 
 .services {
     padding: 60px 45px;
@@ -117,6 +158,26 @@ html {
     border-radius: 5px;
 }
 
+
+.coa-3 {
+    background: url(spektra/sample.jpg) no-repeat scroll 50% 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    height: 400px;
+}
+
+.coa-3 button {
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(222, 216, 255);
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
 /*Footer*/
 
 .container {
@@ -134,7 +195,7 @@ ul {
 }
 
 .footer {
-    background-color: #24262b;
+    background-color: #17202a;
     padding: 20px 0;
 }
 
@@ -201,28 +262,6 @@ ul {
     background-color: #ffffff;
 }
 
-/*responsive*/
-@media(max-width: 767px) {
-    .footer-col {
-        width: 50%;
-        margin-bottom: 30px;
-    }
-}
-
-@media(max-width: 574px) {
-    .footer-col {
-        width: 100%;
-    }
-}
-
-.developer {
-    text-align: center;
-    justify-content: center;
-    margin: 10px;
-    font-size: large;
-    color: #bbbbbb;
-    font-weight: bold;
-}
 
 
 /*About us section*/
@@ -245,6 +284,13 @@ ul {
     /* Center horizontally */
 }
 
+.values-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
 .headings {
     color: white;
     font-size: 3rem;
@@ -259,11 +305,138 @@ ul {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-column-gap: 45px;
+    grid-column-gap: 55px;
     grid-row-gap: 45px;
+    padding: 60px 0px;
 }
 
 .about-item img {
     height: 300px;
     border-radius: 5px;
+}
+
+.coa-2 {
+    background: url(spektra/sample.jpg) no-repeat scroll 50% 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    height: 400px;
+}
+
+.coa-2 button {
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(222, 216, 255);
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+/*Projects Section*/
+
+.projects-header-hero {
+    background: url(spektra/sample.jpg) no-repeat scroll 50% 50%;
+    height: 300px;
+}
+
+.projects-header {
+    height: 100%;
+    /* Make the div take up the full height of the section */
+    display: flex;
+    align-items: center;
+    /* Center vertically */
+    justify-content: center;
+    /* Center horizontally */
+}
+
+.heading-projects {
+    color: white;
+    font-size: 3rem;
+}
+
+.coa-4 {
+    background: url(spektra/sample.jpg) no-repeat scroll 50% 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    height: 400px;
+}
+
+.coa-4 button {
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(222, 216, 255);
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+/*Contact Section*/
+
+.contact-header-hero {
+    background: url(spektra/sample.jpg) no-repeat scroll 50% 50%;
+    height: 300px;
+}
+
+.contact-header {
+    height: 100%;
+    /* Make the div take up the full height of the section */
+    display: flex;
+    align-items: center;
+    /* Center vertically */
+    justify-content: center;
+    /* Center horizontally */
+}
+
+.heading-contact {
+    color: white;
+    font-size: 3rem;
+}
+
+
+.coa-5 {
+    background: url(spektra/sample.jpg) no-repeat scroll 50% 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    height: 400px;
+}
+
+.coa-5 button {
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(222, 216, 255);
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+
+/*responsive*/
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}
+
+.developer {
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    font-size: 15px;
+    color: #bbbbbb;
+    font-weight: bold;
 }
